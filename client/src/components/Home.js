@@ -1,5 +1,7 @@
 
 import Craft from "./Craft";
+import PostReview from "./PostReviews";
+
 
 function Home({crafts,handleClick}) {
   
@@ -13,7 +15,8 @@ function Home({crafts,handleClick}) {
   return (
    <div>
    
-  
+   
+   {/* <PostReview craftItems={craftItems} /> */}
    <div className="book-grid">{craftItems}</div>
    </div>
    

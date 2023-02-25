@@ -1,13 +1,14 @@
 
 import { Link } from "react-router-dom";
 import Homemades from "./Homemades";
+import PostReviews from "./PostReviews";
 
 
 
 function Craft({ allTheCraft,handleAddReview}) {
- 
+ console.log(allTheCraft);
   // const reviewItems= allTheCraft.reviews.map((review) => (
-  //   <Homemades key={review.id} review={review} />
+  //   <PostReviews key={review.id} oneReview={review} />
   // ));
 
  
@@ -28,6 +29,7 @@ function Craft({ allTheCraft,handleAddReview}) {
       </h3>
       <br></br>
       </div>
+    
       {/* {allTheCraft.reviews.map((review) => (
        
        <div  key={review.id}>
@@ -39,7 +41,8 @@ function Craft({ allTheCraft,handleAddReview}) {
    
     <br></br>
     {/* {reviewItems} */}
-  
+    <div  ></div>
+    {/* <PostReviews allTheCraft={allTheCraft}/> */}
     <br></br>
   
     </div>

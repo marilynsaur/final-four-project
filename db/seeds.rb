@@ -5,6 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+#   crafts = Homemade.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
+
 wineBottles = Homemade.create!(title:'Painted Wine Bottles',materials:'wine bottles,paint',difficulty:'easy',image:'https://craftsbyamanda.com/wp-content/uploads/2017/08/painted-wine-bottles-v1.jpg',directions:'You could easily spray paint the bottles beforehand, and then let everyone paint their wine bottles however they like. Then everyone can go home with an upcycled wine bottle vase. So fun!')
 bohoVases = Homemade.create!(title:'DIY Boho Vases',materials:'Square or cylinder terracota planters,Boho fabric trim,Hot glue,Scissors',difficulty:'medium',image:'https://designimprovised.com/wp-content/uploads/2021/08/diy-boho-vases-3.jpg',directions:'Attach the ribbon to the vase by running a bead of hot glue along the top and bottom edges of the ribbon. Be careful to keep the ribbon level as you wrap it around the vase. ')
 stainedGlass = Homemade.create!(title:'Faux Stained Glass Mosaic Luminary',materials:'DecoArts glass stain paints,glass votive holder',difficulty:'medium',image:'https://craftsbyamanda.com/wp-content/uploads/2013/08/faux-stain-glass-luminary-g.jpg',directions:'This project takes a full 4 days to complete. The actual work you do on the project is not the time consuming part, its the drying time. The first step is the leading (outline) and that must dry for 6-8 hours. After you fill in the color, that must dry for 24 hours.')
